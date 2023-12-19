@@ -1,0 +1,125 @@
+.authArea {
+    background-color: #DBE4F5;
+    padding: 10px 6px;
+    margin: 5% 0;
+    border-radius: 6px;
+
+}
+
+.jubofNameText {
+    font-size: 30px;
+}
+
+.forgetpassText {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.sliderImg {
+    height: 100% !important;
+}
+
+.loginArea,
+.loginSlider {
+    height: 100vh;
+}
+
+.authInputArea {
+    background-color: #cbd9f4;
+    border: 1px solid #c4c2c2;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+
+.loginLogo {
+    width: 45px;
+    /* height: 26px; */
+}
+
+.loginButton {
+    width: 285px;
+    height: 50px;
+    border: 1.4px solid rgb(188, 186, 186);
+    border-radius: 7px;
+    /* box-shadow: 0px 1px 1px 0px; */
+}
+
+.loginButton:hover {
+    /* width: 300px; */
+    height: 50px;
+    border: 1.4px solid rgb(188, 186, 186);
+    border-radius: 7px;
+    box-shadow: 0px 1px 5px 0px gray;
+}
+
+.hrLine {
+    width: 60px;
+    height: 10px !important;
+}
+
+
+.custom-caption {
+    right: 0% !important;
+    left: 0% !important;
+    background-color: #DBE4F5 !important;
+    color: black;
+    bottom: 0rem !important;
+}
+
+.namePassInstruction {
+    line-height: 18px;
+    font-size: 16px;
+}
+
+
+
+
+@media (min-width: 1440px) and (max-width: 2559.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .loginSlider {
+        padding-top: 20px;
+        height: 60.6vh;
+    }
+
+    .sliderImg {
+        height: 100vh !important;
+    }
+
+    .hrLine {
+        width: 60px;
+        height: 10px !important;
+    }
+
+
+
+}
+
+@media (min-width: 425px) and (max-width: 767.98px) {
+    .jubofNameText {
+        font-size: 28px;
+    }
+
+    .hrLine {
+        width: 60px;
+        height: 10px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 424.98px) {
+    .jubofNameText {
+        font-size: 28px;
+    }
+
+    .namePassInstruction {
+        line-height: 18px;
+        font-size: 15px;
+        /* margin: 9px 0px; */
+    }
+}

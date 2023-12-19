@@ -1,0 +1,36 @@
+.eventRegArea {
+    background-color: #DBE4F5;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.regDataView {
+    background-color: #DBE4F5;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.enentRegViewImg {
+    width: 70px;
+    height: 70px;
+}
+
+
+.regCompletion {
+    background-color: #DBE4F5;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.regCompletion {
+    background-color: #DBE4F5;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.regMemberImg {
+    width: 150px;
+    height: 160px;
+    border: none;
+    border-radius: 6px;
+}

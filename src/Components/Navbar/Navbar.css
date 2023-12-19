@@ -1,0 +1,100 @@
+.navLogo {
+    width: 45px;
+    margin: -8px 0 -8px 0;
+    /* background-color: ; */
+    border-radius: 25px;
+}
+
+.navArea {
+    background-color: rgb(219, 228, 245);
+}
+
+.navbarCustom {
+    float: right;
+
+}
+
+/* navSearch */
+.searchForm {
+
+    position: relative;
+}
+
+.searchForm .searchIcon {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    color: #9ca3af;
+}
+
+.searchForm span {
+
+    position: absolute;
+    /* right: 17px; */
+    /* top: 13px; */
+    /* padding: 2px; */
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan {
+    padding-left: 7px;
+}
+
+.left-pan i {
+
+    padding-left: 10px;
+}
+
+.SearchInput {
+    width: 40vw !important;
+    /* height: 55px; */
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.SearchInput:focus {
+    box-shadow: none;
+    border: none;
+}
+
+
+@media (min-width: 1440px) and (max-width: 2559.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .customNavItem {
+        text-align: right;
+        background-color: #afc7f3;
+        margin: 1px 0;
+        padding: 0 9px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767.98px) {
+
+    .customNavItem {
+        text-align: right;
+        background-color: #afc7f3;
+        margin: 1px 0;
+        padding: 0 9px;
+        border-radius: 10px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 424.98px) {
+
+
+    .customNavItem {
+        text-align: right;
+        background-color: #afc7f3;
+        margin: 1px 0;
+        padding: 0 9px;
+        border-radius: 10px;
+    }
+}

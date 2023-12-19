@@ -1,0 +1,97 @@
+.cardBodyArea {
+    flex: 1 1 auto;
+
+}
+
+.memberNameText {}
+
+.memberImgCard {
+    background-color: #e4e9f3 !important;
+}
+
+.memberImgCard:hover {
+    background-color: #dae2f3 !important;
+    box-shadow: 0px 0px 7px rgb(69 148 120);
+}
+
+.batchMemberImg {
+    width: 125px;
+    height: 140px;
+    padding: 5px 0;
+    border-radius: 50%;
+}
+
+.card-box {
+    padding: 20px;
+    border-radius: 9px;
+    margin-bottom: 30px;
+    background-color: #d0d4d5;
+}
+
+.thumb-lg {
+    height: 88px;
+    width: 88px;
+}
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-pink {
+    color: #ff679b !important;
+}
+
+.btn-rounded {
+    border-radius: 2em;
+}
+
+.text-muted {
+    color: #98a6ad !important;
+}
+
+h4 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.memberNameCard {}
+
+
+
+@media (min-width: 1440px) and (max-width: 2559.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 425px) and (max-width: 767.98px) {}
+
+@media (min-width: 320px) and (max-width: 424.98px) {
+    .batchMemberImg {
+        width: 100px;
+        height: 110px;
+        padding: 5px 0;
+        border-radius: 50%;
+    }
+
+    .memberNameText {
+        font-size: 16px !important;
+    }
+
+    .memberNameCard {
+        margin: -7px 0 0px;
+    }
+
+    .cardBodyArea {
+        flex: 1 1 auto;
+        padding: 0 2.5px !important;
+    }
+
+}
