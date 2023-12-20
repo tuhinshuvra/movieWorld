@@ -6,6 +6,7 @@ import HomePage from "../Pages/Home/HomePage";
 import SignupPage from "../Pages/Authentication/SignupPage";
 import ImageUpload from "../Pages/Authentication/ImageUpload";
 import WrongRoute from "./WrongRoute";
+import MovieDetailsPage from "../Pages/Home/MovieDetailsPage";
 
 const Router = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ const Router = createBrowserRouter([
             {
                 path: "/",
                 element: <HomePage />
+            },
+            {
+                path: "movieDetails",
+                element: <MovieDetailsPage />
             },
 
 

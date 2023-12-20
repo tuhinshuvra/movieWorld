@@ -1,6 +1,9 @@
+import AddedMoviesSection from '../../Components/HomePageComponents/AddedMoviesSection/AddedMoviesSection';
 import EnjoyITMoviesSection from '../../Components/HomePageComponents/EnjoyITMoviesSection/EnjoyITMoviesSection';
 import HeroSection from '../../Components/HomePageComponents/HeroSection/HeroSection';
+import MoviesRatedSection from '../../Components/HomePageComponents/MoviesRatedSection/MoviesRatedSection';
 import UpComingMoviesSection from '../../Components/HomePageComponents/UpComingMoviesSection/UpComingMoviesSection';
+import WatchListSection from '../../Components/HomePageComponents/WatchListSection/WatchListSection';
 import './Homepage.css';
 
 const HomePage = () => {
@@ -9,8 +12,11 @@ const HomePage = () => {
     return (
         <div className=" ">
             <HeroSection></HeroSection>
-            <UpComingMoviesSection></UpComingMoviesSection>
-            <EnjoyITMoviesSection></EnjoyITMoviesSection>
+            {/* <UpComingMoviesSection></UpComingMoviesSection> */}
+            {/* <EnjoyITMoviesSection></EnjoyITMoviesSection> */}
+            {/* <MoviesRatedSection></MoviesRatedSection> */}
+            {/* <WatchListSection></WatchListSection> */}
+            {/* <AddedMoviesSection></AddedMoviesSection> */}
         </div>
     );
 };
