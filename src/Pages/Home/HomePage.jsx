@@ -15,7 +15,7 @@ const HomePage = () => {
             <HeroSection></HeroSection>
             <UpComingMoviesSection></UpComingMoviesSection>
             <EnjoyITMoviesSection></EnjoyITMoviesSection>
-            {/* <MoviesRatedSection></MoviesRatedSection> */}
+            <MoviesRatedSection></MoviesRatedSection>
             {/* <WatchListSection></WatchListSection> */}
             {/* <AddedMoviesSection></AddedMoviesSection> */}
             <img src={homePageImg} className=' img-fluid' alt="" />

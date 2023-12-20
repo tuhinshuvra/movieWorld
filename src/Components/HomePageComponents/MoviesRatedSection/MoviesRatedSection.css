@@ -1,0 +1,22 @@
+.ratedMoviesSection {
+    height: 510px;
+    background-color: #060F16;
+    padding: 50px 0;
+}
+
+.ratedCarousolItem {
+    height: 200px;
+    border-radius: 6px;
+    background-color: rgb(242, 231, 231) !important;
+}
+
+.ratedCarImg {
+    height: 55%;
+    border-radius: 6px 6px 0 0;
+}
+
+.ratedCarousolItem:hover {
+    height: 200px;
+    border: 2px solid blue !important;
+
+}

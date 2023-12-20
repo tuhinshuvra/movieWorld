@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Loader from "../../Components/Loader/Loader";
-import axios from "axios";
 import configUrl from "../../api/config";
 import "./Login.css";
 
