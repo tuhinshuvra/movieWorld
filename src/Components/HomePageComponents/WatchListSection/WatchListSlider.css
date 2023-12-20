@@ -1,0 +1,22 @@
+.watchListSection {
+    /* background-image: url(../../../assets//movieImages/itmoviewBgImage.jpg); */
+    height: 510px;
+    background-color: #081b0b;
+    padding: 50px 0;
+}
+
+.ratedCarousolItem {
+    height: 370px;
+    border-radius: 6px;
+    background-color: rgb(242, 231, 231) !important;
+}
+
+.ratedCarImg {
+    height: 61.1%;
+    border-radius: 3px 3px 0 0;
+}
+
+.ratedCarousolItem:hover {
+    border-radius: 6px;
+    border: 3px solid rgb(37, 37, 244) !important;
+}

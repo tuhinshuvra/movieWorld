@@ -1,16 +1,20 @@
-import './WatchListSlider.css';
 import WatchListSlider from './WatchListSlider';
+import './WatchListSlider.css';
 
 const WatchListSection = () => {
     return (
-        <div>
-            <div className=''>
-                <div className=''>
-                    <h2>YOUR WATCH-LIST</h2>
-                </div>
+        <div className='watchListSection'>
+            <div className=' container'>
+                <div className=' col-lg-10 mx-auto'>
+                    <div className=''>
+                        <div className=' ms-md-4'>
+                            <h1> <span className='upCommingText'>YOUR</span> <span className='moviesText'>WATCH-LIST</span></h1>
+                        </div>
 
-                <div className=' text-center'>
-                    <WatchListSlider></WatchListSlider>
+                        <div className=' text-center'>
+                            <WatchListSlider></WatchListSlider>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
