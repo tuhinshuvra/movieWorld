@@ -6,7 +6,7 @@
     position: relative;
     background-image: url(../../../assets/movieImages/HeroBgImage.jpg);
     background-size: cover;
-    height: 450px;
+    height: 510px;
 }
 
 .heroBgOverlay {
@@ -25,18 +25,56 @@
 }
 
 .heroLeftText {
-    height: 450px;
+    height: 510px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
 }
 
+.heroSlider {
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
 
+.heroPoster {
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+    margin-bottom: -10px;
+}
 
+.watchNowBtn {
+    background-color: #1E4CD2;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    margin-top: -20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
 
+.customCtlPrev {
+    background-color: white !important;
+    height: 45px;
+    border-radius: 8px;
+    top: 40% !important;
+    margin: 0 0 0 -20px;
 
+}
+
+.customCtlNext {
+    background-color: white !important;
+    height: 45px;
+    border-radius: 8px;
+    top: 40% !important;
+    margin: 0 -20px 0 0;
+}
 
 .heroLeftHeading1 {
     font-weight: 900;
