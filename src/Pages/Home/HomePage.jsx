@@ -14,7 +14,7 @@ const HomePage = () => {
         <div className="">
             <HeroSection></HeroSection>
             <UpComingMoviesSection></UpComingMoviesSection>
-            {/* <EnjoyITMoviesSection></EnjoyITMoviesSection> */}
+            <EnjoyITMoviesSection></EnjoyITMoviesSection>
             {/* <MoviesRatedSection></MoviesRatedSection> */}
             {/* <WatchListSection></WatchListSection> */}
             {/* <AddedMoviesSection></AddedMoviesSection> */}
