@@ -1,0 +1,34 @@
+.myAddedMoviesSection {
+    height: 510px;
+    background-color: black;
+    padding: 50px 0;
+}
+
+
+.editMovies {
+    position: absolute;
+    margin-left: -130px;
+    margin-top: 25px;
+}
+
+.AddedMovieImg {
+    position: relative;
+    width: 310px;
+    height: 350px;
+    border-radius: 12px;
+}
+
+.AddedNewMovie {
+    background-color: rgb(16, 16, 16);
+    position: relative;
+    width: 310px;
+    height: 315px;
+    border: 2px dashed white;
+    border-radius: 12px;
+}
+
+
+.AddMovieBtn {
+    position: absolute;
+    margin-top: 25px;
+}
