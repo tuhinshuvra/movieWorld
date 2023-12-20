@@ -24,8 +24,10 @@ const UpComingMoviesSlider = () => {
                     {/* <div onClick={() => navigate(`/events/${item?.id}`)}> */}
                     <div className=' text-white'>
                         {/* <img src={item?.image} className='allEventImage' alt="" /> */}
-                        <img src={MovieOne} className='upCommingMovieImg' alt="" />
-                        <h1>THIS IS MOVIE TITLE</h1>
+                        <img src={MovieFive} className='upCommingMovieImg' alt="upCommingMovieImg" />
+                        <div className='upComingMovieTitle'>
+                            <h3 className=''>THIS IS MOVIE TITLE</h3>
+                        </div>
 
 
                         {/* <div className='text-center mt-2'>
@@ -41,7 +43,6 @@ const UpComingMoviesSlider = () => {
                                     </div> */}
                     </div>
                     {/* <Link className='btn btn-outline-secondary   btn-sm w-full minTopMargin' to={`/events/${item?.id}`}>Show Details</Link> */}
-                    <Link className='btn btn-outline-secondary   btn-sm w-full minTopMargin' to={`/events/`}>Show Details</Link>
                 </div>
                 {/* ); */}
                 {/* })} */}

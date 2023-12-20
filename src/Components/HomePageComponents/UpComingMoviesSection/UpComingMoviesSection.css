@@ -4,25 +4,50 @@
 }
 
 .upCommingMovieCard {
+    position: relative;
     width: 200px;
+    height: 100%;
+    /* background: #000; */
+
     border-radius: 10px;
 }
 
 .upCommingMovieImg {
     width: 100%;
-    /* width: 200px; */
+    height: 100%;
     border-radius: 10px;
 }
 
-/* .upCommingMovieImg:hover {
-    width: 110px;
-    width: 220px;
-    border-radius: 10px;
-    border: 4px solid #0399FA;
-}  */
+.upComingMovieTitle {
+    width: 100%;
+    position: absolute;
+    background: #000000e1;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+}
+
 .upCommingMovieCard:hover {
-    width: 110px;
-    width: 220px;
+    width: 225px;
+    height: 100%;
     border-radius: 10px;
     border: 4px solid #0399FA;
 }
+
+.upComingMovieTitle:hover {
+    position: absolute;
+    background: #000000e1;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.upCommingText {
+    font-size: 50px;
+    color: #0399FA;
+}
+
+.moviesText {
+    font-size: 50px;
+    color: #F5C519;
+}
+
+.upcomingSubText {}

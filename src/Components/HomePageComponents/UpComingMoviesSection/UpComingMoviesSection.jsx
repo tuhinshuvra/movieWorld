@@ -1,14 +1,13 @@
-import './UpComingMoviesSection.css';
 import UpComingMoviesSlider from './UpComingMoviesSlider';
-import Marquee from "react-fast-marquee";
+import './UpComingMoviesSection.css';
 
 const UpComingMoviesSection = () => {
     return (
         <div>
             <div className='upComingMoveSection py-5'>
                 <div className=' text-center text-white '>
-                    <h1>UPCOMING MOVIES</h1>
-                    <p>We constantly offer new moview</p>
+                    <h1> <span className='upCommingText'> UPCOMING</span> <span className='moviesText'> MOVIES</span></h1>
+                    <p className='upcomingSubText'>We constantly offer new moview</p>
                 </div>
 
                 <div className=' text-center'>
