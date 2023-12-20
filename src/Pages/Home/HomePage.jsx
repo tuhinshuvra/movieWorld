@@ -13,12 +13,12 @@ const HomePage = () => {
     return (
         <div className="">
             <HeroSection></HeroSection>
-            <img src={homePageImg} className=' img-fluid' alt="" />
-            {/* <UpComingMoviesSection></UpComingMoviesSection> */}
+            <UpComingMoviesSection></UpComingMoviesSection>
             {/* <EnjoyITMoviesSection></EnjoyITMoviesSection> */}
             {/* <MoviesRatedSection></MoviesRatedSection> */}
             {/* <WatchListSection></WatchListSection> */}
             {/* <AddedMoviesSection></AddedMoviesSection> */}
+            <img src={homePageImg} className=' img-fluid' alt="" />
         </div>
     );
 };

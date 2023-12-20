@@ -1,0 +1,28 @@
+.upComingMoveSection {
+    height: 500px;
+    background-color: #050D12;
+}
+
+.upCommingMovieCard {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.upCommingMovieImg {
+    width: 100%;
+    /* width: 200px; */
+    border-radius: 10px;
+}
+
+/* .upCommingMovieImg:hover {
+    width: 110px;
+    width: 220px;
+    border-radius: 10px;
+    border: 4px solid #0399FA;
+}  */
+.upCommingMovieCard:hover {
+    width: 110px;
+    width: 220px;
+    border-radius: 10px;
+    border: 4px solid #0399FA;
+}
