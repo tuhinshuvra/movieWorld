@@ -1,5 +1,5 @@
 import DummyImg from '../../assets/member/dummyImages.png';
-import "./MemberCard.css";
+import "./CustomCard.css";
 
 const MemberCard = ({ member }) => {
     return (

@@ -1,28 +1,4 @@
-.homePageBody {
-    background-image: url('../../assets/juCampas.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* Ensure content is centered vertically and horizontally */
-}
-
-/* .marginY {
-    padding: 5% 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-.homeLogo {
-    width: 200px;
-    margin: -100px 0;
-}
-
+.homePageBody {}
 
 
 
@@ -33,23 +9,8 @@
 
 @media (min-width: 992px) and (max-width: 1023.98px) {}
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .homeLogo {
-        width: 200px;
-        margin: 0 0;
-    }
-}
+@media (min-width: 768px) and (max-width: 991.98px) {}
 
 @media (min-width: 425px) and (max-width: 767.98px) {}
 
-@media (min-width: 320px) and (max-width: 424.98px) {
-    .homePageBody {
-        height: 100%;
-    }
-
-    .homeLogo {
-        width: 120px;
-        margin: 10px 0;
-    }
-
-}
+@media (min-width: 320px) and (max-width: 424.98px) {}

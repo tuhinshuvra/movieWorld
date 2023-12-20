@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg bg-black text-white ">
                 <div className="container">
                     <Link className="navbar-brand fw-bolder" to="/">
                         <img className="navLogo" src={Logo} alt="" />
@@ -29,58 +29,55 @@ const Navbar = () => {
                     >
                         <span className="navbar-toggler-icon"></span>
                     </button>
+
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <div className="row height d-flex justify-content-center align-items-center">
                             <div className="searchForm">
                                 <FaSearch className="searchIcon " />
                                 <input
                                     type="text"
-                                    className="form-control SearchInput"
+                                    className="form-control SearchInput rounded-3 "
                                     placeholder="Search movies"
                                 />
                             </div>
                         </div>
 
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
                             <li className="nav-item">
-                                <Link className="nav-link fw-bold" aria-current="page" to="/">
+                                <Link className="nav-link  text-white" aria-current="page" to="/">
                                     Movies
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link fw-bold" aria-current="page" to="/">
+                                <Link className="nav-link text-white" aria-current="page" to="/">
                                     Watch-list
                                 </Link>
                             </li>
-                            <li className="nav-item">
+
+
+                            <li>
+
                                 <div className="form-check form-switch">
-                                    <input
-                                        className="form-check-input"
-                                        type="checkbox"
-                                        role="switch"
-                                        id="flexSwitchCheckChecked"
-                                        placeholder="En"
-                                        checked={isChecked}
-                                        onChange={handleToggle}
-                                    />
-                                    <label
-                                        className="form-check-label"
-                                        htmlFor="flexSwitchCheckChecked"
-                                    >
-                                        {isChecked ? "EN" : "BN"}
-                                    </label>
+                                    <input className="form-check-input customToggle" type="checkbox" role="switch" id="flexSwitchCheckChecked" />
                                 </div>
+
                             </li>
+
+
+
+
+
+
                             <li className="nav-item">
-                                <a className="nav-link fw-bold" to="/">
+                                <a className="nav-link   text-white" to="/">
                                     Login
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </nav>
-        </div>
+            </nav >
+        </div >
     );
 };
 

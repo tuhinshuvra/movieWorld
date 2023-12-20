@@ -3,14 +3,14 @@ import "./Footer.css";
 
 const Footer = () => {
     return (
-        <div className="footerArea  ">
+        <div className="footerArea bg-black text-white  ">
             <div className="container">
                 <div className="container">
                     <footer className=" py-1">
                         <div className=" d-md-flex">
                             <div className="col-md-4  mb-3">
                                 <p className=" fw-bold">UPCOMING MOVIES</p>
-                                <ul className="nav flex-column">
+                                <ul className="nav flex-column  text-white">
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Features</a></li>
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li>
