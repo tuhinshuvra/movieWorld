@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'TimesNewRoman';
-  src: url('../public/fonts/TimesNewRoman.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Neographik';
+  src: url('../public/fonts/BebasNeue-Regular.ttf') format('truetype');
+  /* font-weight: normal; */
+  /* font-style: normal; */
 }
 
 * {
-  font-family: 'TimesNewRoman', sans-serif;
+  font-family: 'Neographik';
 }
 
 

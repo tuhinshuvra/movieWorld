@@ -1,0 +1,61 @@
+.heroContainer {
+    position: relative;
+}
+
+.heroBg {
+    position: relative;
+    background-image: url(../../../assets/movieImages/HeroBgImage.jpg);
+    background-size: cover;
+    height: 450px;
+}
+
+.heroBgOverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.906);
+    z-index: 1;
+}
+
+.heroContent {
+    position: relative;
+    z-index: 2;
+}
+
+.heroLeftText {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+
+
+
+
+
+.heroLeftHeading1 {
+    font-weight: 900;
+    font-size: 65px;
+    letter-spacing: 4px;
+    color: #0299FA;
+    z-index: 999;
+}
+
+.heroLeftHeading3TextWhite {
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.heroLeftHeading3TextYellow {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #F5C618;
+}

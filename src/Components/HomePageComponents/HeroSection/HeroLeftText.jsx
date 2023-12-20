@@ -2,8 +2,14 @@ import './HeroSection.css'
 
 const HeroLeftText = () => {
     return (
-        <div>
-            <h2>This is Hero Left Text section</h2>
+        <div className='heroLeftText'>
+            <div>
+                <h1 className=' heroLeftHeading1'>BEST WAY OF <br />ENTERTAINMENT </h1>
+                <h3 className='heroLeftHeading3Text'>
+                    <span className='heroLeftHeading3TextWhite'>MOVIES AS YOU DEMAND AT USD</span> <br />
+                    <span className='heroLeftHeading3TextYellow'>10/MONTH</span>
+                </h3>
+            </div>
         </div>
     );
 };

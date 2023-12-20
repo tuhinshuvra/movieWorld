@@ -4,13 +4,20 @@ import './HeroSection.css';
 
 const HeroSection = () => {
     return (
-        <div>
-            <div className=' d-md-flex flex-lg-row-reverse'>
-                <div className=' col-md-6'>
-                    <HeroRightSlider></HeroRightSlider>
-                </div>
-                <div className=' col-md-6'>
-                    <HeroLeftText></HeroLeftText>
+        <div className='heroContainer'>
+            <div className='heroBg'>
+                <div className='container'>
+                    <div className='col-lg-10 mx-auto'>
+                        <div className='heroBgOverlay' />
+                        <div className=' d-md-flex flex-lg-row-reverse heroContent'>
+                            <div className='col-md-6'>
+                                <HeroRightSlider></HeroRightSlider>
+                            </div>
+                            <div className='col-md-6'>
+                                <HeroLeftText></HeroLeftText>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
