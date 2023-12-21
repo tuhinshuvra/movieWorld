@@ -56,19 +56,12 @@ const Navbar = () => {
                                 </li>
 
 
-                                <li>
-
+                                {/* <li>
                                     <div className="form-check form-switch">
                                         <input className="form-check-input customToggle" type="checkbox" role="switch" id="flexSwitchCheckChecked" />
                                     </div>
 
-                                </li>
-
-
-
-
-
-
+                                </li> */}
                                 <li className="nav-item">
                                     <a className="nav-link   text-white" to="/">
                                         Login

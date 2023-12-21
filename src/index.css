@@ -1,12 +1,29 @@
 @font-face {
-  font-family: 'Neographik';
+  font-family: 'BebasNeue-Regular';
   src: url('../public/fonts/BebasNeue-Regular.ttf') format('truetype');
-  /* font-weight: normal; */
-  /* font-style: normal; */
+  font-weight: normal;
+  font-style: normal;
 }
 
-* {
-  font-family: 'Neographik';
+@font-face {
+  font-family: 'FontFont_FF';
+  src: url('../public/fonts/FontFont_FF.Mark.Pro.Black.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'BebasNeue-Regular';
+}
+
+p {
+  font-family: 'FontFont_FF';
+  font-weight: 600;
 }
 
 

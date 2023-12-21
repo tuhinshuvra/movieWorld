@@ -1,0 +1,33 @@
+.moviesDetailsArea {
+    /* height: 510px; */
+    background-color: #050505;
+    padding-bottom: 25px;
+}
+
+.movieBannerImg {
+    width: 100%;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.detailsWhite {
+    color: white;
+}
+
+.detailsYellow {
+    color: yellow;
+}
+
+.movieTrailerImg {
+    width: 100%;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.topCastArrow {
+    color: rgb(39, 39, 168);
+    font-size: 33px;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 16px;
+}

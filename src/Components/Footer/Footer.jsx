@@ -15,7 +15,7 @@ const Footer = () => {
                     <footer className=" py-1">
                         <div className=" d-md-flex">
                             <div className="col-md-4  mb-3">
-                                <p className=" fw-bold footerHeading">UPCOMING MOVIES</p>
+                                <h5 className=" fw-bold footerHeading">UPCOMING MOVIES</h5>
                                 <ul className="nav flex-column ">
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-secondary">Animal</a></li>
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-secondary">Jawan</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
                             </div>
 
                             <div className="col-md-4 mb-3">
-                                <p className=" fw-bold footerHeading">ADDITIONAL PAGES</p>
+                                <h5 className=" fw-bold footerHeading">ADDITIONAL PAGES</h5>
                                 <ul className="nav flex-column">
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-secondary">Terms & Condition</a></li>
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-secondary">Privacy Policy</a></li>

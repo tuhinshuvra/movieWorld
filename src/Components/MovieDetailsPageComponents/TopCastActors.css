@@ -1,0 +1,20 @@
+.topCastActors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.castActorSingleArea {
+    background-color: #13171A;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.topCastActorImg {
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+    border: 2px solid rgb(57, 57, 241);
+}
