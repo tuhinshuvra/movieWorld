@@ -1,7 +1,7 @@
 import UpComingMoviesSlider from './UpComingMoviesSlider';
 import './UpComingMoviesSection.css';
 
-const UpComingMoviesSection = () => {
+const UpComingMoviesSection = ({ movies }) => {
     return (
         <div>
             <div className='upComingMoveSection py-5'>
@@ -11,7 +11,7 @@ const UpComingMoviesSection = () => {
                 </div>
 
                 <div className=' text-center'>
-                    <UpComingMoviesSlider></UpComingMoviesSlider>
+                    <UpComingMoviesSlider movies={movies} />
                 </div>
             </div>
         </div >

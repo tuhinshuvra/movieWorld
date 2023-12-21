@@ -1,7 +1,7 @@
 import WatchListSlider from './WatchListSlider';
 import './WatchListSlider.css';
 
-const WatchListSection = () => {
+const WatchListSection = ({ movies }) => {
     return (
         <div className='watchListSection'>
             <div className=' container'>
@@ -12,7 +12,7 @@ const WatchListSection = () => {
                         </div>
 
                         <div className=' text-center'>
-                            <WatchListSlider></WatchListSlider>
+                            <WatchListSlider movies={movies} />
                         </div>
                     </div>
                 </div>

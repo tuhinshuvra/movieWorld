@@ -6,11 +6,12 @@ import { toast } from "react-hot-toast";
 import { AuthContext } from "../../ContextApi/AuthProvider";
 import useTitle from "../../Hooks/UseTitle";
 import "./Login.css";
+import Loader from "../../Components/Loader/Loader";
 
 const Register = () => {
     useTitle("Register");
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const { createUser, updateUser, setLoading } = useContext(AuthContext);
+    const { createUser, updateUser, loading, setLoading } = useContext(AuthContext);
     const [signUpError, setSignUpError] = useState("");
 
     const navigate = useNavigate();
@@ -51,7 +52,8 @@ const Register = () => {
         console.log("User Data :", user);
 
         // fetch(`${process.env.REACT_APP_SERVER}/save_users`, {
-        fetch(`https://tech-simple-blog-backend.vercel.app/save_users`, {
+        // fetch(`https://movie-world-backend-gxee70p20-tuhinshuvra.vercel.app/save_users`, {
+        fetch(`http://localhost:5000/save_users`, {
             method: "POST",
             headers: {
                 "content-type": "application/json",
@@ -75,6 +77,12 @@ const Register = () => {
         }
     };
 
+    if (loading) {
+        return (
+            <Loader></Loader>
+        )
+    }
+
     return (
         <div className="">
             <section className="  gradient-form" style={{ backgroundColor: "#eee" }}>
@@ -89,14 +97,14 @@ const Register = () => {
                                     onSubmit={handleSubmit(handleOnSubmit)}
                                     className=" rounded rounded-2 bg-sm p-5 "
                                 >
-                                    <p className="text-danger text-center">
-                                        {signUpError}
-                                    </p>
                                     <div className="">
                                         <h3 className=" mb-4 text-center fw-bold">
                                             Register
                                         </h3>
 
+                                        <p className="text-danger text-center">
+                                            {signUpError}
+                                        </p>
 
 
                                         <div className="form-outline mb-4">

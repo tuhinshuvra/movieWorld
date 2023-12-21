@@ -2,7 +2,7 @@ import HeroLeftText from './HeroLeftText';
 import HeroRightSlider from './HeroRightSlider';
 import './HeroSection.css';
 
-const HeroSection = () => {
+const HeroSection = ({ movies }) => {
     return (
         <div className='heroContainer'>
             <div className='heroBg'>
@@ -11,10 +11,10 @@ const HeroSection = () => {
                         <div className='heroBgOverlay' />
                         <div className=' d-md-flex flex-lg-row-reverse heroContent'>
                             <div className='col-md-6'>
-                                <HeroRightSlider></HeroRightSlider>
+                                <HeroRightSlider movies={movies} />
                             </div>
                             <div className='col-md-6'>
-                                <HeroLeftText></HeroLeftText>
+                                <HeroLeftText />
                             </div>
                         </div>
                     </div>

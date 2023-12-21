@@ -1,7 +1,7 @@
 import MoviesRatedSlider from './MoviesRatedSlider';
 import './MoviesRatedSection.css';
 
-const MoviesRatedSection = () => {
+const MoviesRatedSection = ({ movies }) => {
     return (
         <div className=' ratedMoviesSection'>
             <div className=' container'>
@@ -12,7 +12,7 @@ const MoviesRatedSection = () => {
                         </div>
 
                         <div className=' text-center'>
-                            <MoviesRatedSlider></MoviesRatedSlider>
+                            <MoviesRatedSlider movies={movies} />
                         </div>
                     </div>
                 </div>
