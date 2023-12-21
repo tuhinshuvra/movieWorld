@@ -1,14 +1,34 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useContext, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { FaSearch } from "react-icons/fa";
 import Logo from '../../assets/logo/movieWordLogo.png';
+import { FaUserTie } from "react-icons/fa";
+
+import { AuthContext } from "../../ContextApi/AuthProvider";
+import toast from "react-hot-toast";
 import "./Navbar.css";
 
 const Navbar = () => {
-    const [isChecked, setIsChecked] = useState(true);
+    const { user, logOut, loading, setLoading } = useContext(AuthContext);
+    console.log("Login User Data: ", user);
 
-    const handleToggle = () => {
-        setIsChecked(!isChecked);
+    // const [isChecked, setIsChecked] = useState(true);
+    // const handleToggle = () => {
+    //     setIsChecked(!isChecked);
+    // };
+
+
+    const navigate = useNavigate();
+
+    const handleLogOut = () => {
+        logOut()
+            .then(() => {
+                toast.success("User logout successfully!", { duration: 1000 });
+                navigate("/");
+            })
+            .catch((error) => {
+                console.log("Error : ", error);
+            });
     };
 
     return (
@@ -60,13 +80,28 @@ const Navbar = () => {
                                     <div className="form-check form-switch">
                                         <input className="form-check-input customToggle" type="checkbox" role="switch" id="flexSwitchCheckChecked" />
                                     </div>
-
                                 </li> */}
-                                <li className="nav-item">
-                                    <a className="nav-link   text-white" to="/">
-                                        Login
-                                    </a>
-                                </li>
+
+                                {user?.email ? < div className=" d-lg-flex justify-content-center align-items-center">
+                                    <li className="nav-item">
+                                        <Link className="nav-link   text-white" to="/">
+                                            <FaUserTie className=" mb-lg-1" />
+                                        </Link>
+                                    </li>
+                                    <li className=" mx-lg-3">
+                                        <Link className="dropdown-item fw-bold text-warning" onClick={handleLogOut}>LogOut</Link>
+                                    </li>
+
+                                </div>
+                                    :
+                                    <>
+                                        <li className="nav-item">
+                                            <Link className="nav-link   text-white" to="/login">
+                                                Login
+                                            </Link>
+                                        </li>
+                                    </>
+                                }
                             </ul>
                         </div>
                     </nav >

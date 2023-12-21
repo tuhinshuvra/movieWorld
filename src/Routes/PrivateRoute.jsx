@@ -1,15 +1,15 @@
 import { useContext } from "react";
 import { Navigate, useLocation } from "react-router-dom";
-import { AllContext } from "../hooks/ContextData";
+import { AuthContext } from "../ContextApi/AuthProvider";
 
 
 const PrivateRoute = ({ children }) => {
-    const { user } = useContext(AllContext);
+    const { user } = useContext(AuthContext);
 
     const location = useLocation();
 
 
-    if (user && user?.token) {
+    if (user) {
         return children;
     }
 

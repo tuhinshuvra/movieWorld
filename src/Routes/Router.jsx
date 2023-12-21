@@ -1,12 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
-import LoginPage from "../Pages/Authentication/LoginPage";
 import PrivateRoute from "./PrivateRoute";
 import HomePage from "../Pages/Home/HomePage";
-import SignupPage from "../Pages/Authentication/SignupPage";
 import ImageUpload from "../Pages/Authentication/ImageUpload";
 import WrongRoute from "./WrongRoute";
 import MovieDetailsPage from "../Pages/Home/MovieDetailsPage";
+import Register from "../Pages/Authentication/Register";
+import Login from "../Pages/Authentication/Login";
 
 const Router = createBrowserRouter([
     {
@@ -32,12 +32,12 @@ const Router = createBrowserRouter([
 
 
             {
-                path: "/signup",
-                element: <SignupPage></SignupPage>
+                path: "/register",
+                element: <Register></Register>
             },
             {
                 path: "/login",
-                element: <LoginPage></LoginPage>
+                element: <Login></Login>
             },
 
 
