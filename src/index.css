@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'BebasNeue-Regular';
-  src: url('../public/fonts/BebasNeue-Regular.ttf') format('truetype');
+  src: url('../src/assets/fonts/BebasNeue-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'FontFont_FF';
-  src: url('../public/fonts/FontFont_FF.Mark.Pro.Black.otf') format('truetype');
+  src: url('../src/assets/fonts/FontFont_FF.Mark.Pro.Black.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
