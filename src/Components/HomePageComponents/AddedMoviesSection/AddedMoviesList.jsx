@@ -1,7 +1,9 @@
 
 
-import AddedMovieOne from "../../../assets/moviePoster/movies-poster-10.jpg"
-import AddedMovieTwo from "../../../assets/moviePoster/movies-poster-11.jpg"
+
+
+import AddedMovieOne from "../../../assets/moviePoster/movies-poster-2.jpg"
+import AddedMovieTwo from "../../../assets/moviePoster/movies-poster-1.jpg"
 import './AddedMoviesSection.css';
 
 const AddedMoviesList = () => {

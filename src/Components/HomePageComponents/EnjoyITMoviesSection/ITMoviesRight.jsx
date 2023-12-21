@@ -1,4 +1,4 @@
-import PosterOne from '../../../assets/moviePoster/itMoviewPoster.jpg';
+import PosterOne from '../../../assets/moviePoster/movies-poster-7.jpg';
 import { BiSolidChevronRightCircle } from "react-icons/bi";
 
 import './EnjoyITMoviesSection.css'

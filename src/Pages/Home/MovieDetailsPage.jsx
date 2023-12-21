@@ -1,11 +1,10 @@
-import MovieDetails from '../../assets/movieImages/Movie Details.jpg'
 import { FaStar, FaRegStar } from "react-icons/fa6";
 import { IoIosArrowForward } from "react-icons/io";
 
 
 
 
-import MovieBanner from '../../assets/moviePoster/movies-poster-16.jpg'
+import MovieBanner from '../../assets/moviePoster/movies-poster-6.jpg'
 import './MovieDetailsPage.css';
 import TopCastActors from '../../Components/MovieDetailsPageComponents/TopCastActors';
 
@@ -58,7 +57,6 @@ const MovieDetailsPage = () => {
                     </div>
                 </div>
             </div>
-            {/* <img src={MovieDetails} className=' img-fluid' alt="" /> */}
         </div>
     );
 };

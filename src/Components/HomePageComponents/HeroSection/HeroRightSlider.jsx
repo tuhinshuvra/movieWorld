@@ -1,10 +1,10 @@
 import PosterOne from '../../../assets/moviePoster/movies-poster-1.jpg';
-import PosterTwo from '../../../assets/moviePoster/movies-poster-11.jpg';
-import PosterThree from '../../../assets/moviePoster/movies-poster-13.jpg';
-import PosterFour from '../../../assets/moviePoster/movies-poster-14.jpg';
-import PosterFive from '../../../assets/moviePoster/movies-poster-15.jpg';
-import PosterSix from '../../../assets/moviePoster/movies-poster-16.jpg';
-import PosterSeven from '../../../assets/moviePoster/movies-poster-17.jpg';
+import PosterTwo from '../../../assets/moviePoster/movies-poster-2.jpg';
+import PosterThree from '../../../assets/moviePoster/movies-poster-3.jpg';
+import PosterFour from '../../../assets/moviePoster/movies-poster-4.jpg';
+import PosterFive from '../../../assets/moviePoster/movies-poster-5.jpg';
+import PosterSix from '../../../assets/moviePoster/movies-poster-6.jpg';
+import PosterSeven from '../../../assets/moviePoster/movies-poster-7.jpg';
 import './HeroSection.css'
 
 const HeroRightSlider = () => {
