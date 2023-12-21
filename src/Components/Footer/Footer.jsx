@@ -40,10 +40,13 @@ const Footer = () => {
                                 <img src={FooterLogo} className='footerLogo' alt="" />
                                 <p>
                                     © {new Date().getFullYear()}
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores aperiam adipisci voluptate,
-                                    Lorem, ipsum dolor sit amet consectetur
+                                    <span className='small ms-1 mb-0'>
+
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores aperiam adipisci voluptate,
+                                        Lorem, ipsum dolor sit amet consectetur
+                                    </span>
                                 </p>
-                                <div className=' d-flex align-items-center'>
+                                <div className=' d-flex align-items-center mt-0 mb-3'>
                                     <FaFacebook className=' fs-5 footerIconColor' />
                                     <AiFillTwitterCircle className=' fs-4 mx-2 footerIconColor' />
                                     <TiSocialLinkedinCircular className=' fs-3 footerIconColor' />
@@ -55,7 +58,7 @@ const Footer = () => {
                         {/* <hr /> */}
 
                         <div className="d-flex   justify-content-center   border-top">
-                            <p className="text-center text-secondary my-3 small">Copyright © {new Date().getFullYear()} MovieWorld. All rights reserved</p>
+                            <span className="text-center text-secondary my-3 small">Copyright © {new Date().getFullYear()} MovieWorld. All rights reserved</span>
                         </div>
                     </footer>
                 </div>

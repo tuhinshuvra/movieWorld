@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
 import PrivateRoute from "./PrivateRoute";
 import HomePage from "../Pages/Home/HomePage";
-import ImageUpload from "../Pages/Authentication/ImageUpload";
 import WrongRoute from "./WrongRoute";
 import MovieDetailsPage from "../Pages/Home/MovieDetailsPage";
 import Register from "../Pages/Authentication/Register";
@@ -20,16 +19,8 @@ const Router = createBrowserRouter([
             },
             {
                 path: "movieDetails",
-                element: <MovieDetailsPage />
+                element: <PrivateRoute>  <MovieDetailsPage /></PrivateRoute>
             },
-
-
-            // {
-            //     path: "/updateProfilePhoto",
-            //     element: <PrivateRoute> <ProfileImageUpdate></ProfileImageUpdate></PrivateRoute>
-            // },
-
-
 
             {
                 path: "/register",
@@ -38,12 +29,6 @@ const Router = createBrowserRouter([
             {
                 path: "/login",
                 element: <Login></Login>
-            },
-
-
-            {
-                path: "/imageUpload",
-                element: <PrivateRoute> <ImageUpload /></PrivateRoute>
             },
 
         ]

@@ -16,7 +16,6 @@ const AuthProvider = ({ children }) => {
 
     const logOut = () => {
         setLoading(true);
-        localStorage.removeItem("reviewToken");
         return signOut(auth);
     };
 
