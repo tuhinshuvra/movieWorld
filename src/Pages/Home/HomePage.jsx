@@ -14,7 +14,7 @@ const HomePage = () => {
     const { user } = useContext(AuthContext);
     const [movies, setMovies] = useState([]);
 
-    // console.log("Movie List", movies);
+    console.log("Movie List", movies);
 
     useEffect(() => {
         fetch(`http://localhost:5000/show_movies`)

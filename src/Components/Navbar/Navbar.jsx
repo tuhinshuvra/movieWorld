@@ -57,7 +57,7 @@ const Navbar = () => {
                                     <FaSearch className="searchIcon " />
                                     <input
                                         type="text"
-                                        className="form-control SearchInput rounded-3 "
+                                        className="form-control searchInput rounded-3 "
                                         placeholder="Search movies"
                                     />
                                 </div>

@@ -44,14 +44,14 @@
     padding-left: 10px;
 }
 
-.SearchInput {
-    width: 35vw !important;
+.searchInput {
+    width: 25vw !important;
     /* height: 55px; */
     text-indent: 33px;
     border-radius: 10px;
 }
 
-.SearchInput:focus {
+.searchInput:focus {
     box-shadow: none;
     border: none;
 }
@@ -137,6 +137,13 @@
         background-color: #afc7f3;
         margin: 1px 0;
         padding: 0 9px;
+        border-radius: 10px;
+    }
+
+    .searchInput {
+        width: 55vw !important;
+        /* height: 55px; */
+        text-indent: 33px;
         border-radius: 10px;
     }
 }
