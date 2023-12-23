@@ -29,16 +29,14 @@ const HomePage = () => {
     return (
         <div className="">
             <HeroSection movies={movies} />
-            <UpComingMoviesSection movies={movies} />
-            <EnjoyITMoviesSection />
+            {/* <UpComingMoviesSection movies={movies} /> */}
+            {/* <EnjoyITMoviesSection /> */}
 
             {user?.email && <>
-                <MoviesRatedSection movies={movies} />
-                <WatchListSection movies={movies} id="watchList" />
-                <Element name="watchList">
-                    <WatchListSection movies={movies} id="watchList" />
-                </Element>
-                <AddedMoviesSection />
+                {/* <MoviesRatedSection movies={movies} /> */}
+                {/* <WatchListSection movies={movies} id="watchList" /> */}
+                {/* <WatchListSection movies={movies} id="watchList" /> */}
+                {/* <AddedMoviesSection /> */}
             </>}
 
         </div>

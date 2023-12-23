@@ -6,7 +6,7 @@ const HeroRightSlider = ({ movies }) => {
     // console.log("HeroRightSlider :", movies)
 
     return (
-        <div className='heroSlider col-md-7 col-7 mx-auto'>
+        <div className='heroSlider col-md-7 col-9 mx-auto'>
             <div id="heroSlider" className="carousel carousel-dark slide">
                 <div className="carousel-inner">
                     {movies?.map((item, index) => (

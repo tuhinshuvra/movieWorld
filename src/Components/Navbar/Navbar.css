@@ -95,9 +95,10 @@
     height: 0;
 }
 
-/* Add any additional styling for the switch appearance here */
 
-
+.navbar-toggler {
+    background-color: #0286CE !important;
+}
 
 
 
@@ -147,4 +148,6 @@
         text-indent: 33px;
         border-radius: 10px;
     }
+
+
 }

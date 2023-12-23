@@ -4,7 +4,6 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 
-
 import "./Footer.css";
 
 const Footer = () => {

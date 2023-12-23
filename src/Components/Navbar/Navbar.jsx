@@ -3,8 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaSearch } from "react-icons/fa";
 import Logo from '../../assets/logo/movieWordLogo.png';
 import { FaUserTie } from "react-icons/fa";
-import { HashLink } from 'react-router-hash-link';
-
 import { AuthContext } from "../../ContextApi/AuthProvider";
 import toast from "react-hot-toast";
 import "./Navbar.css";
@@ -12,11 +10,6 @@ import "./Navbar.css";
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
     console.log("Login User Data: ", user);
-
-    // const [isChecked, setIsChecked] = useState(true);
-    // const handleToggle = () => {
-    //     setIsChecked(!isChecked);
-    // };
 
 
     const navigate = useNavigate();
@@ -73,19 +66,11 @@ const Navbar = () => {
                                 {user?.email &&
                                     <li className="nav-item">
 
-
                                         {/* <HashLink smooth to="/#watchList" className="nav-link text-white" aria-current="page">
                                             Watch-list
                                         </HashLink> */}
                                     </li>
                                 }
-
-
-                                {/* <li>
-                                    <div className="form-check form-switch">
-                                        <input className="form-check-input customToggle" type="checkbox" role="switch" id="flexSwitchCheckChecked" />
-                                    </div>
-                                </li> */}
 
                                 {user?.email ? < div className=" d-lg-flex justify-content-center align-items-center">
                                     <li className="nav-item">
