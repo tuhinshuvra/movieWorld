@@ -6,13 +6,15 @@ import MoviesRatedSection from '../../Components/HomePageComponents/MoviesRatedS
 import UpComingMoviesSection from '../../Components/HomePageComponents/UpComingMoviesSection/UpComingMoviesSection';
 import WatchListSection from '../../Components/HomePageComponents/WatchListSection/WatchListSection';
 import { AuthContext } from '../../ContextApi/AuthProvider';
+import useTitle from '../../Hooks/UseTitle';
 import './Homepage.css';
 
 const HomePage = () => {
+    useTitle("Home");
     const { user } = useContext(AuthContext);
     const [movies, setMovies] = useState([]);
 
-    console.log("Movie List", movies);
+    // console.log("Movie List", movies);
 
     useEffect(() => {
         fetch(`http://localhost:5000/show_movies`)

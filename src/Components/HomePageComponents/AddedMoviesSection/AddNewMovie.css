@@ -1,0 +1,19 @@
+.movieEntryArea {
+    background-color: rgb(113, 154, 230);
+}
+
+/* All blog related CSS */
+.blogbg {
+    background-color: rgb(234, 231, 224);
+}
+
+
+.blogImg {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.blogImageHome {
+    width: 100px;
+    border-radius: 10%;
+}

@@ -6,6 +6,7 @@ import WrongRoute from "./WrongRoute";
 import Register from "../Pages/Authentication/Register";
 import Login from "../Pages/Authentication/Login";
 import MovieDetailsPage from "../Pages/MovieDetailsPage/MovieDetailsPage";
+import AddNewMovie from "../Components/HomePageComponents/AddedMoviesSection/AddNewMovie";
 
 const Router = createBrowserRouter([
     {
@@ -18,8 +19,12 @@ const Router = createBrowserRouter([
                 element: <HomePage />
             },
             {
-                path: "movieDetails",
-                element: <PrivateRoute>  <MovieDetailsPage /></PrivateRoute>
+                path: "movieDetails/:movieId",
+                element: <MovieDetailsPage />
+            },
+            {
+                path: "addNewMovie",
+                element: <AddNewMovie />
             },
 
             {

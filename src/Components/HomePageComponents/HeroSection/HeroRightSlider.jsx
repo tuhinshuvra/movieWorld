@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 import './HeroSection.css'
 
 const HeroRightSlider = ({ movies }) => {
 
-    console.log("HeroRightSlider :", movies)
+    // console.log("HeroRightSlider :", movies)
 
     return (
         <div className='heroSlider col-md-7 mx-auto'>
@@ -11,7 +12,9 @@ const HeroRightSlider = ({ movies }) => {
                     {movies?.map((item, index) => (
                         <div key={index} className={`carousel-item text-center ${index === 0 ? 'active' : ''}`}>
                             <img src={item?.image} className="d-block heroPoster" alt="..." />
-                            <button className='watchNowBtn'>Watch Now</button>
+                            <Link to={`/movieDetails/${item?._id}`}>
+                                <button className='watchNowBtn'>Watch Now</button>
+                            </Link>
                         </div>
                     ))}
                 </div>
