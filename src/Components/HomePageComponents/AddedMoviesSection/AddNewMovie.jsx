@@ -42,8 +42,8 @@ const AddNewMovie = () => {
                         details: data.details,
                         image: imgData.data.url,
 
-                        video: data.video,
-                        episodes: data.episodes,
+                        video: data.videoLink,
+                        episodes: data.episods,
                         videos: data.videos,
                         photos: data.photos,
                         creators: data.creators,
@@ -146,6 +146,19 @@ const AddNewMovie = () => {
                             id="episods"
                             type="number"
                             placeholder="Enter no of episod"
+                        />
+                    </div>
+                    <div className="">
+                        <label htmlFor="episods">
+                            <b>Videos</b>
+                        </label>
+                        <input
+                            {...register("videos", { required: true })}
+                            name="videos"
+                            className="input form-control my-lg-3"
+                            id="videos"
+                            type="number"
+                            placeholder="Enter no of videos"
                         />
                     </div>
                     <div className="">

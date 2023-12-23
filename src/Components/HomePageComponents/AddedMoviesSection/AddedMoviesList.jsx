@@ -1,31 +1,43 @@
-
-
-
-
-import AddedMovieOne from "../../../assets/moviePoster/movies-poster-2.jpg"
-import AddedMovieTwo from "../../../assets/moviePoster/movies-poster-1.jpg"
-import './AddedMoviesSection.css';
+import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../../../ContextApi/AuthProvider";
+import './AddedMoviesSection.css';
 
 const AddedMoviesList = () => {
+
+    const { user } = useContext(AuthContext);
+
+    const email = user?.email;
+    const { data: myMovies = [], refetch } = useQuery({
+        queryKey: ['myMovies'],
+        queryFn: async () => {
+            const respone = await fetch(`http://localhost:5000/myAddedMovies?email=${email}`);
+            const data = respone.json();
+            return data;
+        }
+    })
+
+    console.log("AddedMoviesList : ==>", myMovies);
+    const latestTwoMovies = myMovies.slice(-2);
+
     return (
         <div className=" d-md-flex">
-            <div>
-                <img className='AddedMovieImg' src={AddedMovieTwo} alt="" />
-                <button className=" btn btn-primary btn-lg rounded-5 editMovies">Edit Movies</button>
-            </div>
 
-            <div>
-                <img className='AddedMovieImg mx-3' src={AddedMovieOne} alt="" />
-                <button className=" btn btn-primary btn-lg rounded-5 editMovies">Edit Movies</button>
-            </div>
+            {myMovies && latestTwoMovies.map((movie, index) => <>
+                <div key={index} className=" mx-2">
+                    <img className='AddedMovieImg' src={movie?.image} alt="" />
+                    <button className=" btn btn-primary btn-lg rounded-5 editMovies">Edit Movies</button>
+                </div>
+
+            </>)}
 
             <div className=" d-flex justify-content-center align-items-center">
                 <div className='AddedNewMovie' />
                 <Link className=" btn btn-primary btn-lg rounded-5 AddMovieBtn px-4" to={"/addNewMovie"} >
                     <span className=" fs-5 me-3"> + </span>Add Movie</Link>
             </div>
-        </div>
+        </div >
     );
 };
 

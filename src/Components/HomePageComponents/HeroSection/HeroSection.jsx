@@ -9,12 +9,12 @@ const HeroSection = ({ movies }) => {
                 <div className='container'>
                     <div className='col-lg-10 mx-auto'>
                         <div className='heroBgOverlay' />
-                        <div className=' d-md-flex flex-lg-row-reverse heroContent'>
-                            <div className='col-md-6'>
-                                <HeroRightSlider movies={movies} />
-                            </div>
+                        <div className=' d-md-flex   heroContent'>
                             <div className='col-md-6'>
                                 <HeroLeftText />
+                            </div>
+                            <div className='col-md-6'>
+                                <HeroRightSlider movies={movies} />
                             </div>
                         </div>
                     </div>

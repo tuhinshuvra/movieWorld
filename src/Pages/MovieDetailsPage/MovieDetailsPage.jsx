@@ -25,7 +25,7 @@ const MovieDetailsPage = () => {
         fetch(`http://localhost:5000/show_movies`)
             .then(res => res.json())
             .then(data => {
-                console.log("Movie List", data);
+                // console.log("Movie List", data);
                 setMovies(data);
             })
     }, [])
@@ -36,7 +36,7 @@ const MovieDetailsPage = () => {
 
     const movie = movies.find((item) => item._id === movieId)
 
-    // console.log("MovieDetailsPage : ", movie);
+    console.log("MovieDetailsPage : ", movie);
 
 
 
