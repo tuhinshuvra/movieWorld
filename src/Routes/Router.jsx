@@ -24,7 +24,7 @@ const Router = createBrowserRouter([
             },
             {
                 path: "addNewMovie",
-                element: <AddNewMovie />
+                element: <PrivateRoute> <AddNewMovie /></PrivateRoute>
             },
 
             {

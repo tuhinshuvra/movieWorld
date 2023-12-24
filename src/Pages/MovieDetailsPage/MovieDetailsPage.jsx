@@ -4,8 +4,8 @@ import TopCastActors from '../../Components/MovieDetailsPageComponents/TopCastAc
 import { useParams } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import YouTube from 'react-youtube';
-import './MovieDetailsPage.css';
 import VideoPlayer from "./VideoPlayer";
+import './MovieDetailsPage.css';
 
 const MovieDetailsPage = () => {
     const [movies, setMovies] = useState([]);

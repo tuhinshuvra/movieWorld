@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="bg-black">
             <div className="container">
                 <div className=" col-lg-10 mx-auto">
-                    <nav className="navbar navbar-expand-lg  text-white ">
+                    <nav className="navbar  navbar-expand-lg  text-white ">
                         <Link className="navbar-brand fw-bolder" to="/">
                             <img className="navLogo" src={Logo} alt="" />
                         </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
                         </button>
 
                         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-                            <div className="row height d-flex justify-content-center align-items-center">
+                            <div className="row height d-flex justify-content-center align-items-center mt-3 mt-lg-0">
                                 <div className="searchForm">
                                     <FaSearch className="searchIcon " />
                                     <input
@@ -57,7 +57,7 @@ const Navbar = () => {
                                 </div>
                             </div>
 
-                            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                            <ul className="navbar-nav navbarCustom ms-auto mb-2 mb-lg-0 ">
                                 <li className="nav-item">
                                     <Link className="nav-link  text-white" aria-current="page" to="/">
                                         Movies
