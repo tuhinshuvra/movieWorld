@@ -1,4 +1,4 @@
-.heroContainer {
+.itMovieContainer {
     position: relative;
 }
 
@@ -61,8 +61,8 @@
 }
 
 .trailerTextBtn {
-    width: 97%;
-    margin-right: 15px;
+    width: 94%;
+    margin-right: 14px;
     background: #0000008e;
     color: orange;
     border: none;
@@ -79,7 +79,7 @@
     border-radius: 25px;
     border: none;
     color: white;
-    margin-top: -20px;
+    margin-top: 0px;
     font-size: 18px;
     letter-spacing: 1px;
 }
@@ -127,4 +127,160 @@
     width: 100%;
     height: 20px !important;
     color: white;
+}
+
+
+
+@media (min-width: 1440px) and (max-width: 2559.98px) {
+    .trailerTextBtn {
+        width: 81%;
+        margin-right: 91px;
+        background: #0000008e;
+        color: orange;
+        border: none;
+        /* border-radius: 10px; */
+        padding: 15px 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+    .itMovieTrailer {
+        width: 360px;
+        height: 270px;
+    }
+
+    .trailerTextBtn {
+        width: 91% !important;
+        margin-left: -14px !important;
+        background: #0000008e;
+        color: orange;
+        border: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .itMoviesBg {
+        height: 560px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroLeftText {
+        height: 410px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .itMovieTrailer {
+        width: 240px;
+        height: 220px;
+    }
+
+    .trailerTextBtn {
+        width: 67% !important;
+        margin-left: -95px !important;
+        background: #0000008e;
+        color: orange;
+        border: none;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 767.98px) {
+    .itMoviesBg {
+        height: 560px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroLeftText {
+        height: 410px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .itMovieTrailer {
+        width: 240px;
+        height: 220px;
+    }
+
+    .trailerTextBtn {
+        width: 57% !important;
+        margin-left: -144px !important;
+        background: #0000008e;
+        color: orange;
+        border: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424.98px) {
+    .itMoviesBg {
+        height: 560px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroLeftText {
+        height: 410px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .itMovieTrailer {
+        width: 240px;
+        height: 220px;
+    }
+
+    .trailerTextBtn {
+        width: 67% !important;
+        margin-left: -92px !important;
+        background: #0000008e;
+        color: orange;
+        border: none;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .itMoviesBg {
+        height: 560px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroLeftText {
+        height: 410px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .itMovieTrailer {
+        width: 240px;
+        height: 220px;
+    }
+
+    .trailerTextBtn {
+        width: 78% !important;
+        margin-left: -40px !important;
+        background: #0000008e;
+        color: orange;
+        border: none;
+    }
+
+
 }

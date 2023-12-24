@@ -29,8 +29,8 @@ const HomePage = () => {
     return (
         <div className="">
             <HeroSection movies={movies} />
-            {/* <UpComingMoviesSection movies={movies} /> */}
-            {/* <EnjoyITMoviesSection /> */}
+            <UpComingMoviesSection movies={movies} />
+            <EnjoyITMoviesSection />
 
             {user?.email && <>
                 {/* <MoviesRatedSection movies={movies} /> */}
