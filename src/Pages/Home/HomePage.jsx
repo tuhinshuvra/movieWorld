@@ -33,10 +33,9 @@ const HomePage = () => {
             <EnjoyITMoviesSection />
 
             {user?.email && <>
-                {/* <MoviesRatedSection movies={movies} /> */}
-                {/* <WatchListSection movies={movies} id="watchList" /> */}
-                {/* <WatchListSection movies={movies} id="watchList" /> */}
-                {/* <AddedMoviesSection /> */}
+                <MoviesRatedSection movies={movies} />
+                <WatchListSection movies={movies} id="watchList" />
+                <AddedMoviesSection />
             </>}
 
         </div>

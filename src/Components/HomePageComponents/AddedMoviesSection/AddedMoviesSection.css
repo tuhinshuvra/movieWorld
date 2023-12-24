@@ -1,3 +1,8 @@
+.addedMovieArea {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .myAddedMoviesSection {
     height: 510px;
     background-color: black;
@@ -31,4 +36,121 @@
 .AddMovieBtn {
     position: absolute;
     margin-top: 25px;
+}
+
+
+@media (min-width: 1440px) and (max-width: 2559.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+    .myAddedMoviesSection {
+        height: 970px;
+        padding: 30px 0;
+    }
+
+    .addedMovieArea {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .AddedMovieImg {
+        position: relative;
+        width: 255px;
+        height: 260px;
+        border-radius: 12px;
+    }
+
+    .AddedNewMovie {
+        background-color: rgb(16, 16, 16);
+        position: relative;
+        width: 255px;
+        height: 236px;
+        border: 2px dashed white;
+        border-radius: 12px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .myAddedMoviesSection {
+        height: 970px;
+        padding: 30px 0;
+    }
+
+    .addedMovieArea {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .AddedMovieImg {
+        position: relative;
+        width: 225px;
+        height: 230px;
+        border-radius: 12px;
+    }
+
+    .AddedNewMovie {
+        background-color: rgb(16, 16, 16);
+        position: relative;
+        width: 215px;
+        height: 208px;
+        border: 2px dashed white;
+        border-radius: 12px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767.98px) {
+    .myAddedMoviesSection {
+        height: 970px;
+        padding: 30px 0;
+    }
+
+    .addedMovieArea {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .AddedMovieImg {
+        position: relative;
+        width: 247px;
+        height: 264px;
+        border-radius: 12px;
+    }
+
+    .AddedNewMovie {
+        background-color: rgb(16, 16, 16);
+        position: relative;
+        width: 247px;
+        height: 229px;
+        border: 2px dashed white;
+        border-radius: 12px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 424.98px) {
+    .myAddedMoviesSection {
+        height: 970px;
+        padding: 30px 0;
+    }
+
+    .addedMovieArea {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .AddedMovieImg {
+        position: relative;
+        width: 247px;
+        height: 264px;
+        border-radius: 12px;
+    }
+
+    .AddedNewMovie {
+        background-color: rgb(16, 16, 16);
+        position: relative;
+        width: 247px;
+        height: 229px;
+        border: 2px dashed white;
+        border-radius: 12px;
+    }
 }
