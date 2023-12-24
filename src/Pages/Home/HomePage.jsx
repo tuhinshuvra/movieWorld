@@ -7,7 +7,6 @@ import UpComingMoviesSection from '../../Components/HomePageComponents/UpComingM
 import WatchListSection from '../../Components/HomePageComponents/WatchListSection/WatchListSection';
 import { AuthContext } from '../../ContextApi/AuthProvider';
 import useTitle from '../../Hooks/UseTitle';
-import { Element } from 'react-scroll';
 import './Homepage.css';
 
 const HomePage = () => {

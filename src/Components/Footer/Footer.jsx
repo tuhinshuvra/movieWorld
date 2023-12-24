@@ -13,7 +13,8 @@ const Footer = () => {
                 <div className="container">
                     <footer className=" py-1">
                         <div className=" d-md-flex">
-                            <div className="col-md-4  mb-3">
+
+                            <div className="col-md-4  mb-3 mt-3 mt-md-0 text-center text-md-start">
                                 <h5 className=" fw-bold footerHeading">UPCOMING MOVIES</h5>
                                 <ul className="nav flex-column ">
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-secondary">Animal</a></li>
@@ -24,7 +25,7 @@ const Footer = () => {
                                 </ul>
                             </div>
 
-                            <div className="col-md-4 mb-3">
+                            <div className="col-md-4  mb-3 text-center text-md-start">
                                 <h5 className=" fw-bold footerHeading">ADDITIONAL PAGES</h5>
                                 <ul className="nav flex-column">
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-secondary">Terms & Condition</a></li>
@@ -35,7 +36,8 @@ const Footer = () => {
 
 
 
-                            <div className="col-md-4">
+
+                            <div className="col-md-4  mb-3 text-center text-md-start">
                                 <img src={FooterLogo} className='footerLogo' alt="" />
                                 <p>
                                     © {new Date().getFullYear()}
@@ -45,7 +47,7 @@ const Footer = () => {
                                         Lorem, ipsum dolor sit amet consectetur
                                     </span>
                                 </p>
-                                <div className=' d-flex align-items-center mt-0 mb-3'>
+                                <div className=' d-flex justify-content-center justify-content-md-start align-items-center mt-0 mb-3'>
                                     <FaFacebook className=' fs-5 footerIconColor' />
                                     <AiFillTwitterCircle className=' fs-4 mx-2 footerIconColor' />
                                     <TiSocialLinkedinCircular className=' fs-3 footerIconColor' />

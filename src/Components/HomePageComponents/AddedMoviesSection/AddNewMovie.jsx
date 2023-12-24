@@ -62,7 +62,6 @@ const AddNewMovie = () => {
                         data: movieInfo,
                     })
                         .then((response) => {
-                            // console.log("blog data: ", response);
                             if (response.data) {
                                 toast("The movie  addeed successfully!");
                                 navigate("/");
